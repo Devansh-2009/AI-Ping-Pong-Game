@@ -15,3 +15,7 @@
 #start, #status{
     font-size: 22px;
 }
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}

@@ -38,10 +38,29 @@
       <br><br>
       <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
       <br><br>
-      <h3 id="status" class="btn btn-warning"></h3>
+      <h3 id="status" class="btn btn-warning" onclick="restart()">Restart</h3>
       <br><br>
       <div id="canvas"></div>
       <div id="game_console"></div>
+      <h4>
+        Source Code : <a href="https://github.com/linuk">Linuk</a> || Game Credit : Ping Pong
+      </h4>
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4>Instructions</h4>
+            </div>
+
+            <div class="modal-body">
+              <img src="jump.png" class="instruction_image">  
+              <img src="right.png" class="instruction_image">
+              <img src="left.png" class="instruction_image">         
+            </div>
+          </div>
+        </div>
+      </div>
     </center>
   </body>
 </html>
