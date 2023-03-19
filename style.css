@@ -1,21 +1,23 @@
+body{
+    
+}
 .heading{
     width: 100%;
     text-align: left;
-}
-.heading h3{
-    display: inline;
+    height: 50px;
 }
 .heading button{
     float: right;
-    border: 1px solid white;
+    font-size: 15px;
+    border-width: 2px;
+    border-color: aliceblue;
 }
-.big_image{
-    width: 100%;
+.heading h3{
+    display: inline;
+    font-size: 25px;
 }
-#start, #status{
+#start{
     font-size: 22px;
-}
-.instruction_image{
-    display: inline-block;
-    width: 45%;
+    border-color: aliceblue;
+    border-width: 2px;
 }
